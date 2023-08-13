@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		560BDC132A88CF0100B8BE05 /* App_BeloteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560BDC122A88CF0100B8BE05 /* App_BeloteApp.swift */; };
+		560BDC152A88CF0100B8BE05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560BDC142A88CF0100B8BE05 /* ContentView.swift */; };
+		560BDC172A88CF0800B8BE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560BDC162A88CF0800B8BE05 /* Assets.xcassets */; };
+		560BDC1A2A88CF0800B8BE05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560BDC192A88CF0800B8BE05 /* Preview Assets.xcassets */; };
+		560BDC242A88CF0800B8BE05 /* App_BeloteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560BDC232A88CF0800B8BE05 /* App_BeloteTests.swift */; };
+		560BDC2E2A88CF0800B8BE05 /* App_BeloteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560BDC2D2A88CF0800B8BE05 /* App_BeloteUITests.swift */; };
+		560BDC302A88CF0800B8BE05 /* App_BeloteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560BDC2F2A88CF0800B8BE05 /* App_BeloteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		560BDC202A88CF0800B8BE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 560BDC072A88CF0100B8BE05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 560BDC0E2A88CF0100B8BE05;
+			remoteInfo = App_Belote;
+		};
+		560BDC2A2A88CF0800B8BE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 560BDC072A88CF0100B8BE05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 560BDC0E2A88CF0100B8BE05;
+			remoteInfo = App_Belote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		560BDC0F2A88CF0100B8BE05 /* App_Belote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_Belote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		560BDC122A88CF0100B8BE05 /* App_BeloteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_BeloteApp.swift; sourceTree = "<group>"; };
+		560BDC142A88CF0100B8BE05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		560BDC162A88CF0800B8BE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		560BDC192A88CF0800B8BE05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		560BDC1F2A88CF0800B8BE05 /* App_BeloteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = App_BeloteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		560BDC232A88CF0800B8BE05 /* App_BeloteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_BeloteTests.swift; sourceTree = "<group>"; };
+		560BDC292A88CF0800B8BE05 /* App_BeloteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = App_BeloteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		560BDC2D2A88CF0800B8BE05 /* App_BeloteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_BeloteUITests.swift; sourceTree = "<group>"; };
+		560BDC2F2A88CF0800B8BE05 /* App_BeloteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_BeloteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		560BDC0C2A88CF0100B8BE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560BDC1C2A88CF0800B8BE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560BDC262A88CF0800B8BE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		560BDC062A88CF0100B8BE05 = {
+			isa = PBXGroup;
+			children = (
+				560BDC112A88CF0100B8BE05 /* App_Belote */,
+				560BDC222A88CF0800B8BE05 /* App_BeloteTests */,
+				560BDC2C2A88CF0800B8BE05 /* App_BeloteUITests */,
+				560BDC102A88CF0100B8BE05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		560BDC102A88CF0100B8BE05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				560BDC0F2A88CF0100B8BE05 /* App_Belote.app */,
+				560BDC1F2A88CF0800B8BE05 /* App_BeloteTests.xctest */,
+				560BDC292A88CF0800B8BE05 /* App_BeloteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		560BDC112A88CF0100B8BE05 /* App_Belote */ = {
+			isa = PBXGroup;
+			children = (
+				560BDC122A88CF0100B8BE05 /* App_BeloteApp.swift */,
+				560BDC142A88CF0100B8BE05 /* ContentView.swift */,
+				560BDC162A88CF0800B8BE05 /* Assets.xcassets */,
+				560BDC182A88CF0800B8BE05 /* Preview Content */,
+			);
+			path = App_Belote;
+			sourceTree = "<group>";
+		};
+		560BDC182A88CF0800B8BE05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				560BDC192A88CF0800B8BE05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		560BDC222A88CF0800B8BE05 /* App_BeloteTests */ = {
+			isa = PBXGroup;
+			children = (
+				560BDC232A88CF0800B8BE05 /* App_BeloteTests.swift */,
+			);
+			path = App_BeloteTests;
+			sourceTree = "<group>";
+		};
+		560BDC2C2A88CF0800B8BE05 /* App_BeloteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				560BDC2D2A88CF0800B8BE05 /* App_BeloteUITests.swift */,
+				560BDC2F2A88CF0800B8BE05 /* App_BeloteUITestsLaunchTests.swift */,
+			);
+			path = App_BeloteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		560BDC0E2A88CF0100B8BE05 /* App_Belote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560BDC332A88CF0800B8BE05 /* Build configuration list for PBXNativeTarget "App_Belote" */;
+			buildPhases = (
+				560BDC0B2A88CF0100B8BE05 /* Sources */,
+				560BDC0C2A88CF0100B8BE05 /* Frameworks */,
+				560BDC0D2A88CF0100B8BE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = App_Belote;
+			productName = App_Belote;
+			productReference = 560BDC0F2A88CF0100B8BE05 /* App_Belote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		560BDC1E2A88CF0800B8BE05 /* App_BeloteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560BDC362A88CF0800B8BE05 /* Build configuration list for PBXNativeTarget "App_BeloteTests" */;
+			buildPhases = (
+				560BDC1B2A88CF0800B8BE05 /* Sources */,
+				560BDC1C2A88CF0800B8BE05 /* Frameworks */,
+				560BDC1D2A88CF0800B8BE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				560BDC212A88CF0800B8BE05 /* PBXTargetDependency */,
+			);
+			name = App_BeloteTests;
+			productName = App_BeloteTests;
+			productReference = 560BDC1F2A88CF0800B8BE05 /* App_BeloteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		560BDC282A88CF0800B8BE05 /* App_BeloteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560BDC392A88CF0800B8BE05 /* Build configuration list for PBXNativeTarget "App_BeloteUITests" */;
+			buildPhases = (
+				560BDC252A88CF0800B8BE05 /* Sources */,
+				560BDC262A88CF0800B8BE05 /* Frameworks */,
+				560BDC272A88CF0800B8BE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				560BDC2B2A88CF0800B8BE05 /* PBXTargetDependency */,
+			);
+			name = App_BeloteUITests;
+			productName = App_BeloteUITests;
+			productReference = 560BDC292A88CF0800B8BE05 /* App_BeloteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		560BDC072A88CF0100B8BE05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					560BDC0E2A88CF0100B8BE05 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					560BDC1E2A88CF0800B8BE05 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 560BDC0E2A88CF0100B8BE05;
+					};
+					560BDC282A88CF0800B8BE05 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 560BDC0E2A88CF0100B8BE05;
+					};
+				};
+			};
+			buildConfigurationList = 560BDC0A2A88CF0100B8BE05 /* Build configuration list for PBXProject "App_Belote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 560BDC062A88CF0100B8BE05;
+			productRefGroup = 560BDC102A88CF0100B8BE05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				560BDC0E2A88CF0100B8BE05 /* App_Belote */,
+				560BDC1E2A88CF0800B8BE05 /* App_BeloteTests */,
+				560BDC282A88CF0800B8BE05 /* App_BeloteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		560BDC0D2A88CF0100B8BE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560BDC1A2A88CF0800B8BE05 /* Preview Assets.xcassets in Resources */,
+				560BDC172A88CF0800B8BE05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560BDC1D2A88CF0800B8BE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560BDC272A88CF0800B8BE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		560BDC0B2A88CF0100B8BE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560BDC152A88CF0100B8BE05 /* ContentView.swift in Sources */,
+				560BDC132A88CF0100B8BE05 /* App_BeloteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560BDC1B2A88CF0800B8BE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560BDC242A88CF0800B8BE05 /* App_BeloteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560BDC252A88CF0800B8BE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560BDC2E2A88CF0800B8BE05 /* App_BeloteUITests.swift in Sources */,
+				560BDC302A88CF0800B8BE05 /* App_BeloteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		560BDC212A88CF0800B8BE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 560BDC0E2A88CF0100B8BE05 /* App_Belote */;
+			targetProxy = 560BDC202A88CF0800B8BE05 /* PBXContainerItemProxy */;
+		};
+		560BDC2B2A88CF0800B8BE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 560BDC0E2A88CF0100B8BE05 /* App_Belote */;
+			targetProxy = 560BDC2A2A88CF0800B8BE05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		560BDC312A88CF0800B8BE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		560BDC322A88CF0800B8BE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		560BDC342A88CF0800B8BE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App_Belote/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fire-Blade.App-Belote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		560BDC352A88CF0800B8BE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App_Belote/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fire-Blade.App-Belote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		560BDC372A88CF0800B8BE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fire-Blade.App-BeloteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App_Belote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/App_Belote";
+			};
+			name = Debug;
+		};
+		560BDC382A88CF0800B8BE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fire-Blade.App-BeloteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App_Belote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/App_Belote";
+			};
+			name = Release;
+		};
+		560BDC3A2A88CF0800B8BE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fire-Blade.App-BeloteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = App_Belote;
+			};
+			name = Debug;
+		};
+		560BDC3B2A88CF0800B8BE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fire-Blade.App-BeloteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = App_Belote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		560BDC0A2A88CF0100B8BE05 /* Build configuration list for PBXProject "App_Belote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560BDC312A88CF0800B8BE05 /* Debug */,
+				560BDC322A88CF0800B8BE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560BDC332A88CF0800B8BE05 /* Build configuration list for PBXNativeTarget "App_Belote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560BDC342A88CF0800B8BE05 /* Debug */,
+				560BDC352A88CF0800B8BE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560BDC362A88CF0800B8BE05 /* Build configuration list for PBXNativeTarget "App_BeloteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560BDC372A88CF0800B8BE05 /* Debug */,
+				560BDC382A88CF0800B8BE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560BDC392A88CF0800B8BE05 /* Build configuration list for PBXNativeTarget "App_BeloteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560BDC3A2A88CF0800B8BE05 /* Debug */,
+				560BDC3B2A88CF0800B8BE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 560BDC072A88CF0100B8BE05 /* Project object */;
+}
